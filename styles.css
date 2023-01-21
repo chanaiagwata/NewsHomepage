@@ -34,6 +34,7 @@
     color:#f1f1f1f1;
     padding:10px 15px 10px 15px;
     height: 520px;
+    overflow-y: scroll;
 }
 .card-title{
     color:#f48225;
@@ -62,6 +63,7 @@
 }
 .grid-item3{
     color:#00001a;
+    font-size: 2rem;
 }
 .grid-item4{
     font-family:Arial;
@@ -98,4 +100,61 @@
 }
 .grid-item4{
     grid-area: menu;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top:20px;
+    margin-bottom: 40px;
+    font-family: cursive;
+}
+.grid-container2{
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding:10px;
+    height: auto;
+}
+.grid-container3{
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding:10px;
+    height: auto;
+}
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding:10px;
+    height: auto;
+}
+.container2-grid-item2 h1{
+    color:grey;
+    
+}
+.container3-grid-item2 h1{
+    color:grey;
+    
+}
+.container4-grid-item2 h1{
+    color:grey;
+    
+}
+.container2-grid-item2 p{
+    color: grey;
+    font-family: Arial;
+}
+.container3-grid-item2 p{
+    color: grey;
+    font-family: Arial;
+}
+.container4-grid-item2 p{
+    color: grey;
+    font-family: Arial;
 }
