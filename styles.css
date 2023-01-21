@@ -12,7 +12,7 @@
     list-style: none;
     justify-content: flex-end;
     margin-right: 10vw;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:cursive;
     font-size: 1rem;
 }
 .navigation li{
@@ -27,4 +27,55 @@
     border: 2px solid #f48225;
     padding: 5px;
     border-radius: 5px;
+}
+.card{
+    background-color:#00001a;
+    font-family:cursive;
+    color:#f1f1f1f1;
+    padding:10px 15px 10px 15px;
+}
+.card-title{
+    color:#f48225;
+}
+.title1 a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.title2 a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.title3 a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.line1{
+    background-color:aliceblue;
+    height: 1px;
+    opacity: 30%;
+}
+.line2{
+    background-color:aliceblue;
+    height: 1px;
+    opacity: 30%;
+}
+.grid-item3{
+    color:#00001a;
+}
+.grid-item4{
+    font-family:Arial;
+    color: grey;
+}
+.btn{
+    background-color:#f15d51;
+    color: #f1f1f1;
+    font-family:Geneva;
+    font-size: 1rem;
+    padding: 5px 10px 5px 10px;
+    max-width: 100px;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    color:#f1f1f1;
 }
