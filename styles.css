@@ -33,6 +33,7 @@
     font-family:cursive;
     color:#f1f1f1f1;
     padding:10px 15px 10px 15px;
+    height: 520px;
 }
 .card-title{
     color:#f48225;
@@ -78,4 +79,23 @@
 .btn a{
     text-decoration: none;
     color:#f1f1f1;
+}
+.grid-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    grid-template-areas: 'banner banner card' 'header menu card';
+    gap:20px;
+}
+.grid-item1{
+    grid-area:banner;
+}
+.grid-item2{
+    grid-area: card;
+}
+.grid-item3{
+    grid-area: header;
+}
+.grid-item4{
+    grid-area: menu;
 }
